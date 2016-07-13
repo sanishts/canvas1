@@ -20,7 +20,7 @@ public class Main {
     port(Integer.valueOf(System.getenv("PORT")));
     staticFileLocation("/public");
 
-    get("/hello", (req, res) -> "Hello World");
+    get("/hello", (req, res) -> "<h1>Quarterly Assessment Report Will be added here</h1>");
 
     get("/", (request, response) -> {
             Map<String, Object> attributes = new HashMap<>();
